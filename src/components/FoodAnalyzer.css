@@ -1,0 +1,221 @@
+.analyzer-container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 8px;
+  }
+  
+  .subtitle {
+    color: #6b7280;
+    margin-bottom: 24px;
+  }
+  
+  .form-section {
+    margin-bottom: 24px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 8px;
+  }
+  
+  .upload-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #d1d5db;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9fafb;
+    cursor: pointer;
+    height: 150px;
+  }
+  
+  .upload-area:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .upload-icon {
+    width: 48px;
+    height: 48px;
+    color: #9ca3af;
+    margin-bottom: 4px;
+  }
+  
+  .upload-text {
+    font-size: 14px;
+    color: #6b7280;
+    margin-top: 4px;
+  }
+  
+  .preview-image {
+    max-height: 150px;
+    border-radius: 4px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .text-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .text-input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px 16px;
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #2563eb;
+  }
+  
+  .button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    margin-top: 16px;
+    padding: 12px;
+    background-color: #fee2e2;
+    color: #b91c1c;
+    border-radius: 4px;
+  }
+  
+  .results-container {
+    margin-top: 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 16px;
+  }
+  
+  .result-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .status-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .status-box {
+    background-color: #f3f4f6;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .status-label {
+    font-weight: 500;
+  }
+  
+  .status-value {
+    margin-top: 4px;
+    font-weight: 500;
+  }
+  
+  .green-text {
+    color: #10b981;
+  }
+  
+  .red-text {
+    color: #ef4444;
+  }
+  
+  .yellow-text {
+    color: #f59e0b;
+  }
+  
+  .description {
+    margin-bottom: 16px;
+  }
+  
+  .section-title {
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .warning-box {
+    margin-bottom: 16px;
+    padding: 8px;
+    background-color: #fef2f2;
+    color: #b91c1c;
+    border-radius: 4px;
+    border-left: 4px solid #ef4444;
+  }
+  
+  .nutrition-box {
+    background-color: #f9fafb;
+    padding: 12px;
+    border-radius: 4px;
+  }
+  
+  .nutrition-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  
+  .nutrition-item {
+    display: flex;
+  }
+  
+  .nutrition-label {
+    color: #6b7280;
+  }
+  
+  .nutrition-value {
+    margin-left: 8px;
+    font-weight: 500;
+  }
+  
+  .vitamins-row {
+    margin-top: 8px;
+  }
+  
+  .italic-text {
+    font-style: italic;
+    color: #6b7280;
+  }
+  
+  .disclaimer {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #6b7280;
+  }
